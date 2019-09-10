@@ -1,6 +1,6 @@
 import * as functions from 'firebase-functions'
-import * as admin from 'firebase-admin'
-import config from 'config';
+// import * as admin from 'firebase-admin'
+// import config from 'config';
 import express from 'express'
 import cors from 'cors'
 
