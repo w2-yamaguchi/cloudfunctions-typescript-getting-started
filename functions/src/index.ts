@@ -1,6 +1,5 @@
-import * as functions from 'firebase-functions'
-import * as admin from 'firebase-admin'
+import * as V1 from './v1';
+// import * as V2 from './v2'
 
-admin.initializeApp(functions.config().firebase)
-
-export * from './http/hello'
+export const v1 = { ...V1 };
+// export const v2 = { ...V2 }

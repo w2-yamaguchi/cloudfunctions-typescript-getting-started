@@ -10,6 +10,7 @@
     "sourceMap": true,
     "target": "es2017",
     "strict": true,
+    "skipLibCheck": true,
     "esModuleInterop": true
   },
   "compileOnSave": true,
